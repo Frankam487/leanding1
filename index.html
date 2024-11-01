@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
   integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
   crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./styles/styles.css">
   <link rel="shortcut icon" href="./images/shop-03.jpg">
 </head>
 
@@ -19,11 +19,18 @@
 
     <ul>
       <li><a href="">Home</a></li>
-      <li><a class="nouveautes" href="#">Nouveaités</a></li>
+      <select name="" id="articles">
+        <option value="">Articles</option>
+        <option value="./perruques.html">Perruques</option>
+        <option value="./chaussettes.html">Chaussettes</option>
+        <option value="chaussures">Chaussures</option>
+      </select>
       <li><a href="">Produits</a></li>
       <li><a href="">Avis</a></li>
     </ul>
-
+<div class="btnnn">
+  <input type="submit" value="Se connecter">
+</div>
     <div class="icons-head">
       <span class="fas fa-search"></span>
       <span class="fas fa-baskets"></span>
@@ -139,48 +146,51 @@
       </div>
     </div>
   </section>
-  <div class="clients">
-    <h2> <span>Avis_ </span>Clients</h2>
-  </div>
-  <div class="client-container">
-    <div class="content">
-      <img src="./images/review-01.jpg" alt="">
-      <div class="star-client">
-        <span class="fas fa-star"></span>
-        <span class="fas fa-star"></span>
-        <span class="fas fa-star"></span>
-        <span class="fas fa-star"></span>
-        <span class="fas fa-star"></span>
-      </div>
-      <p>Lorem ipsum dolor sit Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, quas? amet consectetur
-        adipisicing elit. Esse, laudantium.</p>
-      <h3>Kamgang Frank</h3>
+  <div class="client-pere">
+
+    <div class="clients">
+      <h2> <span>Avis_ </span>Clients</h2>
     </div>
-    <div class="content">
-      <img src="./images/review-01.jpg" alt="">
-      <div class="star-client">
-        <span class="fas fa-star"></span>
-        <span class="fas fa-star"></span>
-        <span class="fas fa-star"></span>
-        <span class="fas fa-star"></span>
-        <span class="fas fa-star"></span>
+    <div class="client-container">
+      <div class="content">
+        <img src="./images/review-01.jpg" alt="">
+        <div class="star-client">
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+        </div>
+        <p>Lorem ipsum dolor sit Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, quas? amet consectetur
+          adipisicing elit. Esse, laudantium.</p>
+        <h3>Kamgang Frank</h3>
       </div>
-      <p>Lorem ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, a. sit amet consectetur
-        adipisicing elit. Esse, laudantium.</p>
-      <h3>Kamgang Frank</h3>
-    </div>
-    <div class="content">
-      <img src="./images/review-01.jpg" alt="">
-      <div class="star-client">
-        <span class="fas fa-star"></span>
-        <span class="fas fa-star"></span>
-        <span class="fas fa-star"></span>
-        <span class="fas fa-star"></span>
-        <span class="fas fa-star"></span>
+      <div class="content">
+        <img src="./images/review-01.jpg" alt="">
+        <div class="star-client">
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+        </div>
+        <p>Lorem ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, a. sit amet consectetur
+          adipisicing elit. Esse, laudantium.</p>
+        <h3>Kamgang Frank</h3>
       </div>
-      <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, veniam.
-        consectetur adipisicing elit. Esse, laudantium.</p>
-      <h3>Kamgang Frank</h3>
+      <div class="content">
+        <img src="./images/review-01.jpg" alt="">
+        <div class="star-client">
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+        </div>
+        <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, veniam.
+          consectetur adipisicing elit. Esse, laudantium.</p>
+        <h3>Kamgang Frank</h3>
+      </div>
     </div>
   </div>
   <div class="footer">
@@ -205,18 +215,18 @@
       <h2>Nos locaux
       </h2>
       <p>France <br>
-        Algérie <br>
-        Espagne <br>
-        Italie <br>
-        Canada
+        Douala <br>
+        Yaoundé<br>
+        Bafoussam<br>
+
 
       </p>
     </div>
     <div class="quatre">
       <h2>Paiement</h2>
       <div class="paiement">
-        <span class="un"></span>
-        <span class="deux"></span>
+        <h3><span class="un"></span>orange_money</h3>
+        <h3><span class="deux"></span>MTN mobile money</h3>
         <span class="trois"></span>
         <span class="quatre"></span>
       </div>
@@ -225,6 +235,7 @@
   <div class="copyright">
     <p><span></span> 2024 - FrankKamgang - Tous droits réservé</p>
   </div>
+  <script src="./app.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,33 @@
+  .home {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    padding: 0 42px;
+
+    h1 {
+      font-weight: 900;
+      font-size: 3rem;
+    }
+
+    .image {
+      background: url(../../images/home.png)center/cover;
+      height: 85vh;
+
+    }
+
+    button {
+      padding: 20px 30px;
+      background: rgb(255, 0, 191);
+      color: white;
+      border: none;
+      transform: skew(-20deg);
+      cursor: pointer;
+      margin: 16px 0;
+      transition: .2s ease;
+      &:hover {
+        transform: translateX(20px) scale(1.3);
+        color: rgba(228, 201, 213, 0.907);
+        font-weight: 900;
+      }
+    }
+  }
