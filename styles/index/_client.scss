@@ -1,7 +1,8 @@
 .client-pere {
-  
+
   .client-container {
     display: flex;
+
     .content {
       width: 60%;
       display: flex;
@@ -11,13 +12,30 @@
       margin: 12px;
       padding: 5px 0;
       box-shadow: 10px 13px 12px 1px rgba(0, 0, 0, 0.164);
-      border-bottom: 2px solid red;
-      
-.star-client{
-  color: rgb(209, 209, 21);
-    display: flex;
-    margin: 12px 0;
-}
+      border-bottom: 2px solid $red;
+
+      h3 {
+        padding: 12px 0;
+        
+      }
+
+      @media screen and (max-width: 535px) {
+
+
+        h3 {
+          font-size: .8rem;
+          display: block;
+          margin: 0 auto;
+        }
+
+      }
+
+      .star-client {
+        color: rgb(209, 209, 21);
+        display: flex;
+        margin: 12px 0;
+      }
+
       img {
         height: 100px;
         width: 100px;
@@ -32,14 +50,12 @@
 
       h3 {
         margin-top: -5px;
-
       }
     }
   }
 
   span {
     color: $rose;
-    
   }
 
   h2 {
@@ -54,7 +70,7 @@
 
     &::before {
       content: '';
-      background: rgb(255, 0, 191);
+      background: $rose;
       height: 3px;
       width: 30%;
       transform: translateX(100%);
@@ -67,7 +83,21 @@
       width: 30%;
       transform: translateX(-100%);
       position: absolute;
-      background: rgb(255, 0, 191);
+      background: $rose;
+
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .client-pere {
+
+    h2 {
+
+      &::after,
+      &::before {
+        display: none;
+      }
     }
   }
 }

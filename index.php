@@ -4,13 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>E_SHOP Nous vendons des articles de diverses qualités</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-  integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./styles/styles.css">
-  <link rel="shortcut icon" href="./images/shop-03.jpg">
+  <link rel="shortcut icon" href="./images/panier-02.png">
 </head>
 
 <body>
@@ -18,6 +18,7 @@
     <h1>E<span class="shop">SHOP</span></h1>
 
     <ul>
+      
       <li><a href="">Home</a></li>
       <select name="" id="articles">
         <option value="">Articles</option>
@@ -28,9 +29,9 @@
       <li><a href="">Produits</a></li>
       <li><a href="">Avis</a></li>
     </ul>
-<div class="btnnn">
-  <input type="submit" value="Se connecter">
-</div>
+    <div class="btnnn">
+      <input type="submit" value="Se connecter">
+    </div>
     <div class="icons-head">
       <span class="fas fa-search"></span>
       <span class="fas fa-baskets"></span>
@@ -193,6 +194,33 @@
       </div>
     </div>
   </div>
+  <div class="commande" id="commande">
+    <div class="text">
+      <h2>Passer votre commande <a href="#commande">ICI</a></h2>
+      <p>Si vous avez d'autres préférence, <br> veuillez la mentionner dans le formulaire ci-dessous.</p>
+    </div>
+    <form action="" method="post">
+
+      <div class="name">
+        <label for="name">Nom*</label>
+        <input type="text" name="name" id="name">
+      </div>
+
+      <div class="tel">
+        <label for="tel">Tel*</label>
+        <input type="number" name="tel" id="tel">
+      </div>
+      <div class="name">
+        <label for="name">Ville*</label>
+        <input type="text" name="name" id="name">
+      </div>
+      <textarea name="message" placeholder="Que voulez-vous réellement?"" ></textarea>
+   <div class=" btns">
+    <input type="submit" name="ok" value="Annuler"/>
+    <input type="reset" name="reset" value="Annuler"/>
+  </div>
+</div>
+</form>
   <div class="footer">
     <div class="un">
       <h2><span>E</span>SHOP</h2>

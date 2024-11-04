@@ -23,7 +23,7 @@
       width: 30%;
       transform: translateX(-100%);
       position: absolute;
-      background: rgb(255, 0, 191);
+      background: $rose;
     }
   }
 
@@ -46,7 +46,7 @@
   }
 
   .span {
-    color: rgb(255, 0, 191);
+    color: $rose;
   }
 
   .icons {
@@ -70,4 +70,16 @@
         }
       }
     }
+}
+@media screen and (max-width: 720px) {
+  .produits {
+
+    h2 {
+
+      &::after,
+      &::before {
+        display: none;
+      }
+    }
+  }
 }

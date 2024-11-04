@@ -2,32 +2,62 @@
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
-    padding: 0 42px;
+    padding: 30px 42px;
+button {
+    padding: 20px 30px;
+    background: $rose;
+    color: $white;
+    border: none;
+    transform: skew(-20deg);
+    cursor: pointer;
+    margin: 16px 0;
+    transition: .2s ease;
+
+    @media screen and (max-width: 790px) {
+      padding: 10px;
+      font-size: .4rem;
+    }
+
+    &:hover {
+      transform: translateX(20px) scale(1.3);
+      color: rgba(228, 201, 213, 0.907);
+      font-weight: 900;
+    }
+  }
 
     h1 {
       font-weight: 900;
       font-size: 3rem;
+
+      
+
+      @media screen and (max-width: 790px) {
+
+        font-size: 1.6rem;
+      }
+
     }
 
     .image {
       background: url(../../images/home.png)center/cover;
       height: 85vh;
 
-    }
-
-    button {
-      padding: 20px 30px;
-      background: rgb(255, 0, 191);
-      color: white;
-      border: none;
-      transform: skew(-20deg);
-      cursor: pointer;
-      margin: 16px 0;
-      transition: .2s ease;
-      &:hover {
-        transform: translateX(20px) scale(1.3);
-        color: rgba(228, 201, 213, 0.907);
-        font-weight: 900;
+      @media screen and (max-width: 790px) {
+        height: 45vh;
       }
     }
   }
+
+  
+
+    @media screen and (max-width: 480px) {
+      .home {
+        background-color: red;
+        h1{
+          font: {
+            size: .8rem;
+            
+          }
+        }
+      }
+    }

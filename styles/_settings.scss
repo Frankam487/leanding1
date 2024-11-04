@@ -1,3 +1,4 @@
+
 *{
   margin: 0;
   padding: 0;
@@ -8,6 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 @mixin childrenCenter($space){
   display: flex;
@@ -16,3 +18,5 @@
 }
 $black: #000;
 $rose: rgb(255, 0, 191);
+$red: red;
+$white: #fff;
