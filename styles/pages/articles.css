@@ -1,0 +1,174 @@
+@charset "UTF-8";
+.articles {
+  position: relative;
+  background: url(../../images/oo.jpg) center/cover no-repeat;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #dce9e8;
+}
+.articles::before {
+  content: "☀";
+  position: absolute;
+  top: 14px;
+  right: 20px;
+  font-size: 2.4rem;
+}
+.articles .container-form {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.774);
+  width: calc(60% - 20px);
+  -webkit-box-shadow: 7px 3px 14px 2px black;
+          box-shadow: 7px 3px 14px 2px black;
+  padding: 30px 20px 22px;
+}
+.articles .container-form .name-surname {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.articles .container-form .name,
+.articles .container-form .email,
+.articles .container-form .password,
+.articles .container-form .mail-confirm,
+.articles .container-form .mdp,
+.articles .container-form .confirm,
+.articles .container-form .surname {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px 9px;
+}
+.articles .container-form .name label,
+.articles .container-form .email label,
+.articles .container-form .password label,
+.articles .container-form .mail-confirm label,
+.articles .container-form .mdp label,
+.articles .container-form .confirm label,
+.articles .container-form .surname label {
+  color: #dce9e8;
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: arial;
+}
+.articles .container-form .name input,
+.articles .container-form .email input,
+.articles .container-form .password input,
+.articles .container-form .mail-confirm input,
+.articles .container-form .mdp input,
+.articles .container-form .confirm input,
+.articles .container-form .surname input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0.7px solid rgba(255, 0, 191, 0.241);
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: arial;
+}
+.articles .container-form .name input:focus,
+.articles .container-form .email input:focus,
+.articles .container-form .password input:focus,
+.articles .container-form .mail-confirm input:focus,
+.articles .container-form .mdp input:focus,
+.articles .container-form .confirm input:focus,
+.articles .container-form .surname input:focus {
+  background: transparent;
+  border: 2px solid dashed;
+}
+.articles .container-form .name input:focus::-webkit-input-placeholder, .articles .container-form .email input:focus::-webkit-input-placeholder, .articles .container-form .password input:focus::-webkit-input-placeholder, .articles .container-form .mail-confirm input:focus::-webkit-input-placeholder, .articles .container-form .mdp input:focus::-webkit-input-placeholder, .articles .container-form .confirm input:focus::-webkit-input-placeholder, .articles .container-form .surname input:focus::-webkit-input-placeholder {
+  color: rgba(220, 233, 232, 0.5411764706);
+}
+.articles .container-form .name input:focus::-moz-placeholder, .articles .container-form .email input:focus::-moz-placeholder, .articles .container-form .password input:focus::-moz-placeholder, .articles .container-form .mail-confirm input:focus::-moz-placeholder, .articles .container-form .mdp input:focus::-moz-placeholder, .articles .container-form .confirm input:focus::-moz-placeholder, .articles .container-form .surname input:focus::-moz-placeholder {
+  color: rgba(220, 233, 232, 0.5411764706);
+}
+.articles .container-form .name input:focus:-ms-input-placeholder, .articles .container-form .email input:focus:-ms-input-placeholder, .articles .container-form .password input:focus:-ms-input-placeholder, .articles .container-form .mail-confirm input:focus:-ms-input-placeholder, .articles .container-form .mdp input:focus:-ms-input-placeholder, .articles .container-form .confirm input:focus:-ms-input-placeholder, .articles .container-form .surname input:focus:-ms-input-placeholder {
+  color: rgba(220, 233, 232, 0.5411764706);
+}
+.articles .container-form .name input:focus::-ms-input-placeholder, .articles .container-form .email input:focus::-ms-input-placeholder, .articles .container-form .password input:focus::-ms-input-placeholder, .articles .container-form .mail-confirm input:focus::-ms-input-placeholder, .articles .container-form .mdp input:focus::-ms-input-placeholder, .articles .container-form .confirm input:focus::-ms-input-placeholder, .articles .container-form .surname input:focus::-ms-input-placeholder {
+  color: rgba(220, 233, 232, 0.5411764706);
+}
+.articles .container-form .name input:focus::placeholder,
+.articles .container-form .email input:focus::placeholder,
+.articles .container-form .password input:focus::placeholder,
+.articles .container-form .mail-confirm input:focus::placeholder,
+.articles .container-form .mdp input:focus::placeholder,
+.articles .container-form .confirm input:focus::placeholder,
+.articles .container-form .surname input:focus::placeholder {
+  color: rgba(220, 233, 232, 0.5411764706);
+}
+.articles .container-form .name input::-webkit-input-placeholder, .articles .container-form .email input::-webkit-input-placeholder, .articles .container-form .password input::-webkit-input-placeholder, .articles .container-form .mail-confirm input::-webkit-input-placeholder, .articles .container-form .mdp input::-webkit-input-placeholder, .articles .container-form .confirm input::-webkit-input-placeholder, .articles .container-form .surname input::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.71);
+}
+.articles .container-form .name input::-moz-placeholder, .articles .container-form .email input::-moz-placeholder, .articles .container-form .password input::-moz-placeholder, .articles .container-form .mail-confirm input::-moz-placeholder, .articles .container-form .mdp input::-moz-placeholder, .articles .container-form .confirm input::-moz-placeholder, .articles .container-form .surname input::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.71);
+}
+.articles .container-form .name input:-ms-input-placeholder, .articles .container-form .email input:-ms-input-placeholder, .articles .container-form .password input:-ms-input-placeholder, .articles .container-form .mail-confirm input:-ms-input-placeholder, .articles .container-form .mdp input:-ms-input-placeholder, .articles .container-form .confirm input:-ms-input-placeholder, .articles .container-form .surname input:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.71);
+}
+.articles .container-form .name input::-ms-input-placeholder, .articles .container-form .email input::-ms-input-placeholder, .articles .container-form .password input::-ms-input-placeholder, .articles .container-form .mail-confirm input::-ms-input-placeholder, .articles .container-form .mdp input::-ms-input-placeholder, .articles .container-form .confirm input::-ms-input-placeholder, .articles .container-form .surname input::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.71);
+}
+.articles .container-form .name input::placeholder,
+.articles .container-form .email input::placeholder,
+.articles .container-form .password input::placeholder,
+.articles .container-form .mail-confirm input::placeholder,
+.articles .container-form .mdp input::placeholder,
+.articles .container-form .confirm input::placeholder,
+.articles .container-form .surname input::placeholder {
+  color: rgba(0, 0, 0, 0.71);
+}
+.articles .btnValided {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.articles .btnValided a {
+  margin: 0 20px;
+  background: rgba(255, 0, 191, 0.986);
+  padding: 10px 20px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 4px;
+  text-decoration: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.articles .btnValided a:hover {
+  background: rgba(255, 0, 191, 0.704);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}/*# sourceMappingURL=articles.css.map */

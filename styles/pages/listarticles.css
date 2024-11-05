@@ -1,0 +1,72 @@
+.liste-articles {
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+.liste-articles .text {
+  width: calc(40% - 20px);
+  background: url(../../images/slide-06.png) center/cover no-repeat;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  border-radius: 12px;
+  -webkit-box-shadow: 3px 12px 15px -3px black;
+          box-shadow: 3px 12px 15px -3px black;
+}
+.liste-articles .text h2 {
+  color: rgba(255, 255, 255, 0.858);
+  margin: 14px 0;
+}
+.liste-articles .card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.liste-articles .card-container .card {
+  background: rgba(255, 255, 255, 0.9960784314);
+  -webkit-box-shadow: -1px 10px 7px -4px black;
+          box-shadow: -1px 10px 7px -4px black;
+  margin: 12px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 12px;
+}
+.liste-articles .card-container .card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.liste-articles .card-container .card h3, .liste-articles .card-container .card .stars, .liste-articles .card-container .card p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}/*# sourceMappingURL=listarticles.css.map */

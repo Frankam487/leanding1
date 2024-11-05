@@ -19,18 +19,13 @@
 
     <ul>
       
-      <li><a href="">Home</a></li>
-      <select name="" id="articles">
-        <option value="">Articles</option>
-        <option value="./perruques.html">Perruques</option>
-        <option value="./chaussettes.html">Chaussettes</option>
-        <option value="chaussures">Chaussures</option>
-      </select>
-      <li><a href="">Produits</a></li>
-      <li><a href="">Avis</a></li>
+      <li><a href="#home" class="commandes">Home</a></li>
+      
+      <li><a href="./catalogue.php">Produits</a></li>
+      <li><a href="./avis.php">Avis</a></li>
     </ul>
     <div class="btnnn">
-      <input type="submit" value="Se connecter">
+      <a href="./articles.php" class="connexion">Se connecter</a>
     </div>
     <div class="icons-head">
       <span class="fas fa-search"></span>
@@ -44,7 +39,7 @@
       <h2>E-COMMERCE</h2>
       <h1>Tendance & <br>
         Tranquilité</h1>
-      <button>EN SAVOIR PLUS</button>
+      <a href="./articles.php">COMMANDEZ</a>
     </div>
     <div class="image"></div>
   </div>
@@ -69,7 +64,6 @@
 
   <section class="produits">
     <h2> <span class="span">Nos_</span>Produits</h2>
-
     <div class="container">
       <div class="image1">
         <div class="imagee">

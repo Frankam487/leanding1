@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalogue</title>
+    <link rel="stylesheet" href="./styles/pages/listarticles.css">
+</head>
+<body>
+  <div class="liste-articles">
+
+    <div class="text">
+      <h2>Faites votre choix ici</h2>
+    </div>
+    <div class="card-container" >
+      
+      <div class="card">
+        <a href="./catalogue.php"><img src="./images/home.png" height="200px" alt=""></a>
+        <h3>Perruques</h3>
+        <div class="stars">
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+        </div>
+        <p>5000FCFA</p>
+        </div>
+      <div class="card">
+        <a href="./catalogue.php"><img src="./images/home.png" height="200px" alt=""></a>
+        <h3>Perruques</h3>
+        <div class="stars">
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+        </div>
+        <p>5000FCFA</p>
+        </div>
+      <div class="card">
+        <a href="./catalogue.php"><img src="./images/home.png" height="200px" alt=""></a>
+        <h3>Perruques</h3>
+        <div class="stars">
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+        </div>
+        <p>5000FCFA</p>
+        </div>
+      <div class="card">
+        <a href="./catalogue.php"><img src="./images/home.png" height="200px" alt=""></a>
+        <h3>Perruques</h3>
+        <div class="stars">
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+        </div>
+        <p>5000FCFA</p>
+        </div>
+      <div class="card">
+        <a href="./catalogue.php"><img src="./images/home.png" height="200px" alt=""></a>
+        <h3>Perruques</h3>
+        <div class="stars">
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+        </div>
+        <p>5000FCFA</p>
+        </div>
+      <div class="card">
+        <a href="./catalogue.php"><img src="./images/home.png" height="200px" alt=""></a>
+        <h3>Perruques</h3>
+        <div class="stars">
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+        </div>
+        <p>5000FCFA</p>
+        </div>
+      <div class="card">
+        <a href="./catalogue.php"><img src="./images/home.png" height="200px" alt=""></a>
+        <h3>Perruques</h3>
+        <div class="stars">
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+        </div>
+        <p>5000FCFA</p>
+        </div>
+      <div class="card">
+        <a href="./catalogue.php"><img src="./images/home.png" height="200px" alt=""></a>
+        <h3>Perruques</h3>
+        <div class="stars">
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+        </div>
+        <p>5000FCFA</p>
+        </div>
+      <div class="card">
+        <a href="./catalogue.php"><img src="./images/home.png" height="200px" alt=""></a>
+        <h3>Perruques</h3>
+        <div class="stars">
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+        </div>
+        <p>5000FCFA</p>
+        </div>
+      <div class="card">
+        <a href="./catalogue.php"><img src="./images/home.png" height="200px" alt=""></a>
+        <h3>Perruques</h3>
+        <div class="stars">
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+        </div>
+        <p>5000FCFA</p>
+        </div>
+      <div class="card">
+        <a href="./catalogue.php"><img src="./images/home.png" height="200px" alt=""></a>
+        <h3>Perruques</h3>
+        <div class="stars">
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+        </div>
+        <p>5000FCFA</p>
+        </div>
+      <div class="card">
+        <a href="./catalogue.php"><img src="./images/home.png" height="200px" alt=""></a>
+        <h3>Perruques</h3>
+        <div class="stars">
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+        </div>
+        <p>5000FCFA</p>
+        </div>
+     
+  
+    </div>
+  </div>
+</body>
+</html>
